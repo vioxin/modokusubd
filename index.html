@@ -92,8 +92,8 @@
                 // GASからのレスポンスはCORSの関係で見れない場合が多いですが、
                 // エラーが出なければ送信成功とみなします。
                 msg.innerHTML = `
-                    <span class="text-green-400 font-bold block mb-1">✔ Application Received!</span>
-                    <span class="text-gray-300">管理者の承認をお待ちください。</span>
+                    <span class="text-green-400 font-bold block mb-1">✔ 登録が完了しました！</span>
+                    <span class="text-gray-300">数分以内にDNS設定が世界中に反映されます。<br>ご登録のターゲットURLへ接続できるかお試しください。</span>
                 `;
                 msg.classList.remove('hidden');
                 document.getElementById('subdomainForm').reset();
